@@ -1,0 +1,26 @@
+#DOMAIN-SUFFIX：域名后缀匹配
+#DOMAIN：域名匹配
+#DOMAIN-KEYWORD：域名关键字匹配
+#IP-CIDR：IP 段匹配
+#SRC-IP-CIDR：源 IP 段匹配   IP-CIDR6
+#GEOIP：GEOIP 数据库（国家代码）匹配
+#DST-PORT：目标端口匹配
+#SRC-PORT：源端口匹配
+#PROCESS-NAME：源进程名匹配
+#RULE-SET：Rule Provider 规则匹配
+#MATCH：全匹配
+
+#
+
+DOMAIN-SUFFIX,ax1x.com
+DOMAIN-SUFFIX,gachi.icu
+DOMAIN-SUFFIX,benzi.cc
+DOMAIN-SUFFIX,qiandao.day
+DOMAIN-SUFFIX,sodayo.cn
+DOMAIN-KEYWORD,intel
+IP-CIDR,193.32.148.120/24,no-resolve #v.ps MINI
+IP-CIDR,45.143.235.164/24,no-resolve #v.ps MINI
+IP-CIDR,142.171.219.0/24,no-resolve
+IP-CIDR6,2607:f130:0:180::/48,no-resolve #CC
+IP-CIDR6,2a12:bec0:166:7b7::/48,no-resolve #JP2
+IP-CIDR6,2a12:a301:2::1148/48,no-resolve #v.ps MINI
